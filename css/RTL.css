@@ -78,7 +78,14 @@ body {
     display: flex;
   }
 }
-
+.row-reverse {
+  flex-direction: row-reverse;
+}
+footer .widget-address li p {
+  margin-bottom: 0;
+  display: flex;
+  gap: 4px;
+}
 @media only screen and (max-width: 991px) {
   .header-nav .nav > li.menu-item-has-children > a::before,
   .header-nav .nav > li.sub-menu-down > a::before {
